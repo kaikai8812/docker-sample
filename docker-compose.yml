@@ -5,8 +5,8 @@ services:
     image: mysql:5.7
     #environmentで、環境変数を指定
     environment:
-      MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: root
+      MYSQL_ROOT_PASSWORD: ksgk8812
+      MYSQL_DATABASE: kaikai8812
     ports:
       - "3306:3306"
 
